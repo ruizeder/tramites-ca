@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-dark: #0a0f1d;
+  --color-gold-premium: #c5a059;
+  --color-gold-light: #e2c28a;
+  --color-cream-soft: #fcfaf7;
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+:root {
+  background-color: var(--color-cream-soft);
+  color: var(--color-navy-dark);
+  font-family: var(--font-body);
+}
+
+/* Efecto de scroll suave para el Header */
+html {
+  scroll-behavior: smooth;
+}
